@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">CONTÁCTAME</h1>
+        <p class="pr">PRISCILA ROATTA</p>
+    </header>
+    <nav>
+        <a href="Index.html">-VOLVER AL INCIO-</a>
+        <a href="sobre mí.html">-SOBRE MÍ-</a>
+        <a href="contacto.html">-CONTACTO-</a>
+        </nav>
+    <section>
+        <br>
+        <form action="">
+            <label for="nombre">NOMBRE:</label>
+            <input type="text" placeholder="Ingresa tu Nombre" id="nombre" required>
+            <label for="apellido">APELLIDO:</label>
+            <input type="text" id="apellido" placeholder="Ingresa tu Apellido" required>
+            <br>
+            <br>
+            <label for="mail">EMAIL:</label>
+            <input type="email" id="mail" placeholder="Ingresa tu Email" required>
+            <br>
+            <br>
+            <label for="curso">CURSO:</label>
+            <select id="curso" required>
+                <option value="opcion1">1ro</option>
+                <option value="opcion2">2do</option>
+                <option value="opcion3">3ro</option>
+                <option value="opcion4">4to</option>
+                <option value="opcion1">5to</option>
+                <option value="opcion2">6to</option>
+                <option value="opcion3">7mo</option>
+            </select>
+            <label for="materia">MATERIA:</label>
+            <select id="materia" required>
+                <option value="opcion1">Lengua</option>
+                <option value="opcion2">Ingles</option>
+                <option value="opcion3">Matematica</option>
+                <option value="opcion4">Historia</option>
+                <option value="opcion1">Fisica</option>
+                <option value="opcion2">Quimica</option>
+            </select>
+            <br>
+            <br>
+            <label for="mensaje">MENSAJE:</label>
+            <br>
+            <input type="text" placeholder="Acá podes dejar un mensaje" style="height: 137px; width: 400px;">
+            <br>
+            <br>
+            <input type="submit" onclick="enviar()" class="botonenviar">
+        </form>
+    </section>
+    <footer>
+        <p class="prfooter">PRISCILA ROATTA</p>
+        <p>ESCUELA PROA || PROGRAMACIÓN || FRANCO ORTIZ</p> 
+    <img src="IMAGENES/LOGOPROA.png" alt="" class="logoproa">
+</footer>
+</body>
+</html>
